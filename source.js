@@ -29,7 +29,7 @@ function gotPoses(results){
         diff=lwristx-rwristx;
         
     }else{
-        alert("A MONSTER ERROR OCCURED");
+        alert(" ERROR OCCURED");
     }
 
 }
@@ -38,5 +38,5 @@ function draw(){
    textSize(diff);
     document.getElementById("handw").innerHTML=diff;
     fill('blue');
-    text('MADHAV',noseX,noseY);
+    text('Aarav',noseX,noseY);
 }
